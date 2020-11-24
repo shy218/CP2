@@ -101,4 +101,4 @@ def generate_stats(outdir, **kwargs):
     boxplot(outdir,dblp_all)
     kdeplot(outdir,dblp_all)
     edcfplot(outdir,dblp_all)
-    
+    print("The charts are generated in " + outdir)    

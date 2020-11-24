@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+print("The code needs to be run on python3.6+. If you meet any ImportError, please try python3 run.py test")
 
 import sys
 import subprocess
@@ -20,8 +21,8 @@ def main(targets):
         
         output=etl.run_cmd_shell(data_cfg['command'])
         return output   
-    if 'eda' in targets:
-
+    if 'test' in targets:
+        
         eda.generate_stats('test', **eda_config)
         
         
