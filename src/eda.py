@@ -20,7 +20,7 @@ def process(DBLP):
     for line in lines:
         for word in line.decode()[:-1].replace('.', ' ').replace(',',' ').split():
             word_list.append(word)
-    print('The number of unique words: '+len(set(word_list)))
+    print('The number of unique words: '+ str(len(set(word_list))))
     document_length = []
     for line in lines:
         document_length.append(len(line.decode()[:-1].replace('.', '').replace(',','').split()))

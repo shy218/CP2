@@ -2,5 +2,5 @@
     "single":"/src/data/EN/AutoPhrase_single-word.txt",
     "multi":"/src/data/EN/AutoPhrase_multi-words.txt",
     "all":"/src/data/EN/AutoPhrase.txt",
-    "DBLP":"/src/data/EN/DBLP.txt"
+    "DBLP":"/src/data/EN/DBLP.5K.txt"
 }
