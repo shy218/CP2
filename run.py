@@ -8,6 +8,7 @@ from src import etl
 import json
 sys.path.insert(0, 'src')
 from src import eda
+import test
 
 def main(targets):
     eda_config = json.load(open('config/eda-params.json'))
@@ -23,7 +24,9 @@ def main(targets):
         return output   
     if 'test' in targets:
         
-        eda.generate_stats('test', **eda_config)
+        #eda.generate_stats('test', **eda_config)
+        
+        test.dotest()        
         
         
 if __name__ == '__main__':

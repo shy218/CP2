@@ -1,0 +1,6 @@
+{
+  "auto_phrase":"./src/data/EN/AutoPhrase_multi-words.txt",
+  "result":"result.csv",
+  "pr_curve":"PR.png"
+  
+}
