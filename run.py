@@ -24,7 +24,7 @@ def main(targets):
         return output   
     if 'test' in targets:
         
-        #eda.generate_stats('test', **eda_config)
+        eda.generate_stats('test', **eda_config)
         
         test.dotest()        
         
