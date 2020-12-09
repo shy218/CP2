@@ -1,7 +1,4 @@
 {
-    "config": ["config/data-params.json", "config/eda-params.json"],  
-    "build": "run.py", 
-    "library": ["src"], 
-    "notebook": ["notebooks/result.ipynb","notebooks/DSC180A+CP2.ipynb"], 
-    "targets": ["data", "eda"]
+    "dockerhub-id":"shy218/dsc180a_final_replication:latest",
+    "repository-id":"https://github.com/shy218/CP2.git"
 }
